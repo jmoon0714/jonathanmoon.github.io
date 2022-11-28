@@ -1,2 +1,2 @@
-# jonathanmoon.github.io
-website
+# website
+My personal website
