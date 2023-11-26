@@ -272,9 +272,9 @@ Resize image to be 60% of div width */
   line-height: 25px;
 }
 .m-btn.m-btn-theme {
-  background: #aad688;
+  background: #47894b;
   color: #ffffff;
-  border-color: #aad688;
+  border-color: #47894b;
 }
 .m-btn.m-btn-theme:hover {
   background: #090a0c;
@@ -282,12 +282,12 @@ Resize image to be 60% of div width */
 }
 .m-btn.m-btn-t-theme {
   background: transparent;
-  color: #aad688;
-  border-color: #aad688;
+  color: #47894b;
+  border-color: #47894b;
 }
 .m-btn.m-btn-t-theme:hover {
-  background: #aad688;
-  border-color: #aad688;
+  background: #47894b;
+  border-color: #47894b;
   color: #ffffff;
 }
 .m-btn.m-btn-dark {
@@ -296,8 +296,8 @@ Resize image to be 60% of div width */
   border-color: #090a0c;
 }
 .m-btn.m-btn-dark:hover {
-  background: #aad688;
-  border-color: #aad688;
+  background: #47894b;
+  border-color: #47894b;
 }
 .m-btn.m-btn-t-dark {
   background: transparent;
@@ -618,7 +618,7 @@ h6 {
 /* Background color
 -------------------------------*/
 .theme-bg {
-  background-color: #5ea758; /* Darker green */
+  background-color: #aad688;
 }
 
 .dark-bg {
