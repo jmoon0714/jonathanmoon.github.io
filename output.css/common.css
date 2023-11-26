@@ -1,0 +1,19 @@
+/* Error: Undefined mixin.
+ *    ,
+ * 39 | /     @include down-md {
+ * 40 | |         padding-top: 80px;
+ * 41 | |         padding-bottom: 80px;
+ * 42 | \     }
+ *    '
+ *   static\style\scss\common.scss 39:2  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 39 \2502  \250c      @include down-md {\a 40 \2502  \2502          padding-top: 80px;\a 41 \2502  \2502          padding-bottom: 80px;\a 42 \2502  \2514      }\a    \2575 \a   static\\style\\scss\\common.scss 39:2  root stylesheet";
+}
