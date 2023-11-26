@@ -4,6 +4,10 @@
 	background-color: $px-theme;
 }
 
+.theme-light-bg {
+	background-color: $px-light-theme;
+}
+
 .dark-bg {
 	background-color: $px-dark;
 }
@@ -38,6 +42,10 @@
 
 .theme-color {
 	color: $px-theme;
+}
+
+.theme-light-color {
+	color: $px-light-theme;
 }
 
 .green-color {
