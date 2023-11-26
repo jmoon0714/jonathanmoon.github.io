@@ -337,10 +337,10 @@
 					speed: 200,
 					loop: true,
 					strings: [
-						'Christian',
-						'Student',
-						'Computer Scientist',
-						'Volunteer'
+						'Computer Vision Scientist',
+						'Perception Roboticist',
+						'Generative ML Researcher',
+						'Drummer',
 					],
 					breakLines: false
 				});
