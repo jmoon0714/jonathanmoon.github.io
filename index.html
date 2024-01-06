@@ -232,7 +232,7 @@
                     <div class="col-md-12">
                         <div class="section-title">
                             <h3 class="dark-color text-uppercase">My Skills</h3>
-                            <p class="text-uppercase small">What I'm good at!</p>
+                            <p class="text-uppercase small">What I know</p>
                         </div>
                     </div>
                 </div>
@@ -243,7 +243,7 @@
                         <div class="skill-lt">
                             <h6 class="dark-color">PyTorch</h6>
                             <div class="skill-bar">
-                                <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="95"
+                                <div class="skill-bar-in theme-light-bg" role="progressbar" aria-valuenow="95"
                                     aria-valuemin="0" aria-valuemax="100">
                                     <!-- <span>95%</span> -->
                                 </div>
@@ -390,7 +390,7 @@
                         <div class="skill-lt">
                             <h6 class="dark-color">Photoshop</h6>
                             <div class="skill-bar">
-                                <div class="skill-bar-in theme-light-bg" role="progressbar" aria-valuenow="85"
+                                <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="85"
                                     aria-valuemin="0" aria-valuemax="100">
                                     <!-- <span>85%</span> -->
                                 </div>
@@ -482,7 +482,7 @@
                             <div class="grid-item product branding">
                                 <div class="portfolio-box-01">
                                     <div class="portfolio-img">
-                                        <img src="static/img/projects/iuu.svg"
+                                        <img src="static/img/projects/machikoro.svg"
                                             alt="SVG element for Jonathan Moon's website">
                                     </div>
                                     <div class="portfolio-info">
@@ -499,7 +499,7 @@
                                 <div class="modal-dialog modal-full-height modal-top modal-xl" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalPreviewLabel"> Illegal, Unreported, and Unregulated Fishing
+                                            <h5 class="modal-title" id="exampleModalPreviewLabel"> Machi Koro AI
                                             </h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
@@ -507,20 +507,24 @@
                                         </div>
                                         <div class="col-md-12 p-3">
                                             <div class="float-left  col-5 col-lg-4 pl-0">
-                                                <img class="" src="static/img/projects/iuu.svg"
+                                                <img class="" src="static/img/projects/machikoro.svg"
                                                     alt="SVG element for Jonathan Moon's website">
                                             </div>
                                             <div class="single-post-content-wrapper ">
                                                 <h6>August 2021 - December 2021</h6>
-                                                This was another project done with MIT Lincoln Laboratory and other Cornell students.
-                                                The goal was to train a model that would take in SAR satellite data, identify
-                                                vessels, and categorize them as IUU or not.  IUU fishing is a problem often associated with drug/human
-                                                trafficking and other illegal activities not to mention it can wreck ecosystems and often is done in waters 
-                                                of developing nations who don't have the resources to combat it.
+                                                For the final projects for a functional programming and an AI course, we set out to create an AI to play the viral board game Machi Koro.
+                                                
+                                                For the functional programming component, the video game engine was coded in OCaml. The game engine was built to be modular and extensible
+                                                so that we could easily add new features and game mechanics that come with the game's many expansion packs. 
+                                                The game engine was designed to support multiple players, save states, and customizable game rules.
 
-                                                This project was for the xView3 challenge and while our team did not perform well, it was a huge learning 
-                                                lesson for me. If nothing else it, taught me a lot about working in cross-institutional teams and I like 
-                                                to think that the experience will be very helpful in my future career.
+                                                For the AI component, we implemented a modified Monte Carlo Tree Search (MCTS) algorithm to play the game. The AI was trained using self-play
+                                                and was able achieve superhuman performance, beat human players nearly everytime. The AI was also able to play with different game rules and
+                                                expansion packs. We used our own heuristics about the game to guide the AI's value function, and simulated multiple AI agents with different
+                                                configurations to find the best performing agent. While exploring every possible option is a critical part of Monte Carlo Tree Search, it was 
+                                                decided that some situations would never occur in a real game. The anomalous situations arose when a player would own hundreds of coins and 
+                                                have only a couple remaining landmarks to purchase. We would eliminate these unrealistic playouts to make the AI much more efficient.
+
                                             </div>
                                         </div>
                                         <div class="modal-footer d-flex">
@@ -1110,7 +1114,7 @@
                                             <label for="name">Name</label>
                                             <input name="Name" id="name" placeholder="First Last" class="form-control"
                                                 type="text">
-                                            <span class="input-focus-effect theme-light-bg"></span>
+                                            <span class="input-focus-effect theme-bg"></span>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -1118,7 +1122,7 @@
                                             <label for="email">Email</label>
                                             <input name="Email" id="email" placeholder="example@domain.com"
                                                 class="form-control" type="email">
-                                            <span class="input-focus-effect theme-light-bg"></span>
+                                            <span class="input-focus-effect theme-bg"></span>
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -1126,7 +1130,7 @@
                                             <label for="subject">Subject</label>
                                             <input name="Subject" id="subject" placeholder="Subject"
                                                 class="form-control" type="text">
-                                            <span class="input-focus-effect theme-light-bg"></span>
+                                            <span class="input-focus-effect theme-bg"></span>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
@@ -1134,7 +1138,7 @@
                                             <label for="message">Message</label>
                                             <textarea name="message" id="message" placeholder="Your message" rows="3"
                                                 class="form-control"></textarea>
-                                            <span class="input-focus-effect theme-light-bg"></span>
+                                            <span class="input-focus-effect theme-bg"></span>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
